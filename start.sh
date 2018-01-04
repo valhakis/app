@@ -1,7 +1,8 @@
 #!/bin/bash
 
-clear
+# clear
+printf "\033c"
 
 if make ; then
-  ./bin/app
+  app a
 fi
